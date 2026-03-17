@@ -19,4 +19,4 @@ def train_model(df):
     return model, X_test, y_test
 
 def save_model(model):
-    pickle.dump(model, open("model/model.pkl", "wb"))
+    pickle.dump(model, open("C:/Users/aswin/OneDrive/Desktop/github/student-placement-prediction-ml/model/model.pkl", "wb"))

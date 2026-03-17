@@ -3,7 +3,7 @@ from train import train_model, save_model
 from evaluate import evaluate_model
 
 # Load
-df = load_data("data/placement.csv")
+df = load_data("C:/Users/aswin/OneDrive/Desktop/github/student-placement-prediction-ml/dataset/Placement_Data_Full_Class.csv")
 
 # Preprocess
 df = preprocess_data(df)
